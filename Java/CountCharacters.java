@@ -5,14 +5,13 @@ public class CountCharacters {
     public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Enter the input string: ");
-		String input = in.nextLine();		
-		int number = Integer.parseInt(input);
+		String input = in.nextLine();				
 		
 		System.out.println("You entered: " + number);
-		System.out.println("when multipled by 2: " + number*2);
+		
         
         // Call the method to count characters
-        //countCharacters(input);
+        countCharacters(input);
     }
     
     public static void countCharacters(String input) {
