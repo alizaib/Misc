@@ -3,8 +3,9 @@ import java.util.Arrays;
 public class MergeSortedArrays {
     public static void main(String[] args) {
         // Example sorted arrays
-        int[] array1 = {1, 3, 5, 7};
-        int[] array2 = {2, 4, 6, 7, 9, 10};
+		//array1[10] = 1,2,4,6,9,10
+        int[] array1 = {1,2,4,6,9,10};
+        int[] array2 = {3, 5,7,8};
 
         // Merge the two sorted arrays
         int[] mergedArray = mergeArrays(array1, array2);
